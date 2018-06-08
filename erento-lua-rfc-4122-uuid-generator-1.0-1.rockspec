@@ -1,8 +1,16 @@
-package = "erento-LUA-RFC-4122-UUID-Generator"
+-- This file was automatically generated for the LuaDist project.
+
+package = "erento-lua-rfc-4122-uuid-generator"
 version = "1.0-1"
+-- LuaDist source
 source = {
-  url = "git://github.com/erento/LUA-RFC-4122-UUID-Generator.git"
+  tag = "1.0-1",
+  url = "git://github.com/LuaDist-testing/erento-lua-rfc-4122-uuid-generator.git"
 }
+-- Original source
+-- source = {
+--   url = "git://github.com/erento/LUA-RFC-4122-UUID-Generator.git"
+-- }
 description = {
   summary = "Pure Lua Implementation of RFC 4122-compliant v4 pseudorandom UUID generator.",
   detailed = "Pure Lua Implementation of RFC 4122-compliant v4 pseudorandom UUID generator. Also includes an RFC 4122-compliant v5 SHA1-based UUID generator (bring your own crypto library). Both modules use the same license as Lua (the MIT license).",
